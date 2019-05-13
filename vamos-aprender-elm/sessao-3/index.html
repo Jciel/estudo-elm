@@ -1,0 +1,58 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Main</title>
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+		<style type="text/css">
+			.saving {
+				opacity: 0.7;
+			}
+		</style>
+	</head>
+	<body>
+		
+		<div class="row">
+			<div class="col-md-8">
+				<h1>My blog post</h1>
+				<p>Vivamus nec enim et quam luctus pharetra. Integer eu fermentum nibh. In id finibus libero. Fusce consectetur 
+				quam at nibh scelerisque pharetra. Etiam sed porta arcu. Nulla cursus lorem sit amet gravida feugiat. Sed nunc 
+				ex, pulvinar sed nunc ut, interdum egestas dui. Ut tristique vitae urna eget vehicula. Duis eget sodales neque. 
+				Suspendisse ipsum nunc, tristique eget nibh ac, tempor tempor libero. Ut pellentesque nibh scelerisque nunc 
+				tempus, sed convallis justo gravida. Sed id magna sollicitudin, pulvinar metus a, sagittis urna. Morbi sodales 
+				a nisi eu tincidunt. Donec ut lorem egestas, gravida mi vel, rutrum diam. Vestibulum ante ipsum primis in faucibus 
+				orci luctus et ultrices posuere cubilia Curae; Pellentesque eros magna, posuere a tempor quis, molestie at quam.</p>
+
+				<p>Aenean dignissim ipsum nec semper tincidunt. Proin vitae malesuada nunc. Nam tempus libero dolor, quis finibus 
+				arcu tincidunt non. Morbi sagittis nisl nulla, at gravida leo finibus ac. Vivamus ac facilisis sem. Sed accumsan 
+				diam vulputate tincidunt laoreet. Integer suscipit diam eu dolor cursus, ut dignissim sapien dictum. Vestibulum 
+				sit amet tortor vulputate, fermentum urna condimentum, ornare risus. Maecenas placerat fermentum aliquam. Praesent 
+				eget sodales nibh. Aenean porta mauris at malesuada gravida. In hac habitasse platea dictumst. Etiam turpis nisl, 
+				suscipit ut dolor eget, vulputate interdum ipsum. Nullam enim tellus, rhoncus vitae lacus vel, finibus pharetra 
+				felis.</p>
+
+				<p>Sed nibh erat, condimentum quis auctor vitae, ultricies a libero. Cras tincidunt nibh eros. Proin quis lacus 
+				dictum, posuere metus nec, ultricies turpis. Mauris pharetra eu tellus in aliquet. Aliquam erat volutpat. Donec 
+				elit augue, cursus eu venenatis in, commodo in neque. Suspendisse enim nisl, sagittis nec purus at, hendrerit 
+				mattis arcu. Sed sapien ipsum, consectetur non iaculis in, sodales in mauris. Ut id faucibus leo, vel facilisis 
+				urna.</p>
+			</div>
+
+			<div id="app" class="col-md-4"></div>
+		</div>
+
+		
+
+		<script type="text/javascript" src="app.js"></script>
+
+
+		<script type="text/javascript">
+
+			var container = document.getElementById("app")
+
+			Elm.Main.init({node : container})
+			
+		</script>
+	</body>
+</html>
