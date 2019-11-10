@@ -1,0 +1,38 @@
+{
+  "following": [
+    {
+      "id": 1,
+      "name": "Rosinha do Deserto",
+      "nickname": "rosainhadodeserto",
+      "profileImgUrl": "/bd/images/rosinha-do-sol/01.jpg",
+      "stories": [],
+      "posts": [
+        {
+          "id": 1,
+          "user": 1,
+          "urlImage": "/bd/images/rosinha-do-sol/02.jpg",
+          "title": "minha foto",
+          "likes": [],
+          "comments": [
+            {
+              "user": 2,
+              "content": "bela"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Rosinha do Deserto",
+      "nickname": "rosainhadodeserto",
+      "profileImgUrl": "/bd/images/rosinha-do-sol/01.jpg",
+      "stories": [
+        {
+          "urlImg": "/bd/images/rosinha-do-sol/02.jpg"
+        }
+      ],
+      "posts": []
+    }
+  ]
+}

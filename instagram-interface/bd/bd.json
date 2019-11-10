@@ -1,0 +1,35 @@
+{
+  "following": [
+    {
+      "name": "Rosinha do Deserto",
+      "nickname": "rosainhadodeserto",
+      "profileImgUrl": "../bd/rodinha-do-deserto/01.jpg",
+      "stories": [
+        {
+          "urlImg": "../bd/rodinha-do-deserto/02.jpg"
+        },
+        {
+          "urlImg": "../bd/rodinha-do-deserto/03.jpg"
+        }
+      ],
+      "posts": [
+        {
+          "user": {},
+          "urlImage": "../bd/rodinha-do-deserto/02.jpg",
+          "title": "minha foto",
+          "likes": [{}],
+          "comments": [
+            {
+              "user": {},
+              "content": "bela"
+            },
+            {
+              "user": {},
+              "content": "bela 2"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
